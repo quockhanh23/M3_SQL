@@ -1,5 +1,13 @@
 # M3_SQL
 
+
+# Lấy các bản ghi có id lẻ
+select * from alo123 where id%2 and id !=1
+
+# Lấy 1 kí tự đầu tiên
+Select SUBSTRING(name1,1,1) as aki from alo123
+Select SUBSTRING(name1,1,1), SUBSTRING(name2,1,1) as aki from alo123;
+
 use demo20062;
 # Tạo 1 bảng
 create table copy3(
